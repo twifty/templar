@@ -1,0 +1,86 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.template-panel {
+  font-size: @input-font-size;
+
+  .template-confirm-delete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .template-input-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -@component-padding;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .template-input-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 @component-padding;
+  }
+
+  .required-field {
+    border-color: #a70808;
+    box-shadow: 0 0 0 1px #a70808;
+  }
+
+  .template-list {
+    overflow: auto;
+    margin-bottom: 0.75em;
+
+    .list-group {
+      margin: 0;
+    }
+
+    .template-list-item {
+      outline: none;
+      border-left: 3px solid @base-border-color;
+
+      &:focus {
+        border-left-color: @button-background-color-selected;
+        color: @text-color-highlight;
+        background-color: @button-background-color-hover;
+      }
+    }
+  }
+
+  .template-input-button {
+    min-width: 50px;
+    margin: 0 @component-padding;
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+  :disabled .is-focused {
+    border-color: @base-border-color;
+    box-shadow: 0 0 0 0px;
+    background-color: @input-background-color;
+
+    .cursor {
+      opacity: 0;
+    }
+  }
+}
+
+.template-create {
+  display: flex;
+  flex-direction: row;
+  font-size: @input-font-size;
+  justify-content: space-between;
+  align-items: center;
+
+  .editor {
+    flex: 1;
+    margin: 0 10px !important;
+    font-size: inherit;
+  }
+}

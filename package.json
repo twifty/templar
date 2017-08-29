@@ -1,0 +1,23 @@
+{
+  "name": "templar",
+  "main": "./lib/templar",
+  "version": "0.1.0",
+  "description": "Enables the use of file templates within the atom editor",
+  "keywords": ["atom", "project", "files", "templates"],
+  "repository": "https://github.com/twifty/templar.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "0.9.0",
+    "fs-plus": "^2.8.1",
+    "lodash.foreach": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Templar'
+      'submenu': [
+        {
+          'label': 'Manage Templates',
+          'command': 'templar:manage-templates'
+        },
+      ]
+    ]
+  }
+]
