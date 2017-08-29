@@ -1,7 +1,7 @@
 {
   "name": "templar",
   "main": "./lib/templar",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Enables the use of file templates within the atom editor",
   "keywords": [
     "atom",
