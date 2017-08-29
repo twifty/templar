@@ -6,7 +6,7 @@ Template files can be written for any language with the ability to replace place
 
 ### Usage
 
-Run the command `templar:browse-templates` or navigate to `Packages -> Templar -> Manage Templates` to create your templates.
+Run the command `templar:manage-templates` or navigate to `Packages -> Templar -> Manage Templates` to create your templates.
 
 The fields include:
 * **Template Name**: The name which appears in the menus.
