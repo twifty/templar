@@ -1,9 +1,14 @@
 {
   "name": "templar",
   "main": "./lib/templar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Enables the use of file templates within the atom editor",
-  "keywords": ["atom", "project", "files", "templates"],
+  "keywords": [
+    "atom",
+    "project",
+    "files",
+    "templates"
+  ],
   "repository": "https://github.com/twifty/templar.git",
   "license": "MIT",
   "engines": {
